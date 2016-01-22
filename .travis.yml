@@ -1,0 +1,7 @@
+sudo: false
+language: go
+go:
+  - tip
+script:
+  - wget http://dorilu.net/kimg0/ma1t.png
+  - $HOME/gopath/bin/goresize -h 50 -w 50 -i ma1t.png -o ma1t_resized.png
