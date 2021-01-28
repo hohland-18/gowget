@@ -1,6 +1,0 @@
-sudo: false
-language: go
-go:
-  - tip
-script:
-  - $HOME/gopath/bin/gowget http://dorilu.net/kimg0/ma1t.png
